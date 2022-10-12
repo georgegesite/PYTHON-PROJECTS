@@ -10,4 +10,9 @@ print("Views", yt.views)
 
 yd = yt.streams.get_highest_resolution()
 
-yd.download('G:\CODING VIDEOS')
+yd.download('D:\EDIT VIDEO WITH EMMAN\TEST TASK')
+
+#HOW TO USE
+#python -u YTdownloader.py "link"
+#example ->
+#python -u YTdownloader.py "https://www.youtube.com/watch?v=3sCGysVB41k"
