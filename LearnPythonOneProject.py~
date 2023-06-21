@@ -1,0 +1,16 @@
+#sloth machine on youtube
+
+def Deposit():
+    while True:
+        amount = input("Enter right amount: ")
+        if amount.isdigit():
+            amount = int(amount)
+            if amount > 0:
+                break
+            else:
+                print("Amount must be greater than zero")
+        else:
+            print("Enter a number")
+    return amount
+
+Deposit()
