@@ -36,6 +36,6 @@ def sort_images_and_videos(directory):
                 os.rename(file_path, os.path.join(destination_folder, file))
 
 # Specify the directory containing the images and videos
-directory = 'G:\Video Presentation\FILES SORTED\FRESHMEN'
+directory = r'G:\Video Presentation\fddon22'
 
 sort_images_and_videos(directory)
