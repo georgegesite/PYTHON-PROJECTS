@@ -55,11 +55,11 @@ class MyCircularQueue():
 
 # Your MyCircularQueue object will be instantiated and called as such:
 obj = MyCircularQueue(5)
-obj.enqueue(1)
-obj.enqueue(2)
-obj.enqueue(3)
-obj.enqueue(4)
-obj.enqueue(5)
+obj.enqueue("George")
+obj.enqueue("Gesite")
+obj.enqueue("Is")
+obj.enqueue("Cool")
+obj.enqueue("amazing")
 print("Initial queue")
 obj.printCQueue()
 
