@@ -10,3 +10,19 @@ def my_function():
 my_function() 
 print(a) # prints the updated global a 
 print(b) # prints the original b which was not updated
+
+# The bool class
+isValid = True
+if isValid:
+    print('This Statement is Valid')
+
+# The int class
+#The integer constructor, int( ), returns value 0 by default
+intConstructor = int()
+print(intConstructor) #prints 0
+
+# print(int('helloworld'))
+
+print(int('1234')) #prints 1234
+
+print(int( '7f' , 16)) #evaluates to the integer 127.
