@@ -26,3 +26,7 @@ print(intConstructor) #prints 0
 print(int('1234')) #prints 1234
 
 print(int( '7f' , 16)) #evaluates to the integer 127.
+
+
+# updates
+# install python 3.1 tomorrow
