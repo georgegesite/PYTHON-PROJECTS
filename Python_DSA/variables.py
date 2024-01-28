@@ -30,3 +30,5 @@ print(int( '7f' , 16)) #evaluates to the integer 127.
 
 # updates
 # install python 3.1 tomorrow
+# didnt install python 3
+# will try to use neovim instead of vscode
