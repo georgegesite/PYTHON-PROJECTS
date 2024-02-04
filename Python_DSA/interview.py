@@ -1,11 +1,16 @@
-input =input("Enter String: ")
-output = ""
-count = 1
-for i in range(0,len(input)):
-    print(input[i])
-    if input[i] == input[i+1]:
-        count = count + 1
+def sayWhatYouSee(test):
+
+  count = 1
+  encoded = ""
+
+  for i in range(len(test)):
+    if i < len(test) - 1 and test[i] == test[i+1]:
+      count += 1
     else:
-        output = output + str(count) + input[i]
-        count = 1
-print(output)
+      encoded += str(count) + test[i]  
+      count = 1
+
+  return encoded
+
+test = "AAAABBCCC"
+print(sayWhatYouSee(test))
